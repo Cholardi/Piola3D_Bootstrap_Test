@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <title>Piola3D</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor_logo">
+            <!-- Logo -->
+            <a href="../index.html"><img class="logo" src="../imgs/piola_icono.png" alt="Icono Piola3D"></a>
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="">Productos</a>
+                </li>
+
+                <li>
+                    <a href="servicio_impresion.html">Servicio de Impresión 3D</a>
+                </li>
+
+                <li>
+                    <a href="otros_servicios.html">Otros Servicios</a>
+                </li>
+
+                <li>
+                    <a href="info.html">Información</a>
+                </li>
+
+                <li>
+                    <a href="galeria.html">Galería</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="impresion_section_1">
+            <div>
+                <img class="img_full_width_60vh messirve" src="../imgs/messirve.jpg" alt="Bustos messirve">
+            </div>
+            <div class="bloque_texto_centrado bloque_servicio_imp">
+                <h1>Servicio de Impresión 3D</h1>
+                <p class="subtitulo_h1">¡Mandanos tu proyecto! A continuación te contamos cómo hacerlo.</p>
+            </div>
+        </section>
+
+        <div id="paso_a_paso">
+            <h2 class="titulo_paso_a_paso">Paso a Paso</h2>
+            <ol class="lista_pasos">
+                <li class="paso">
+                    <p class="texto_paso">
+                        <span>Asegurate que tenés un archivo formato .stl listo para enviar.</span> Si no tenés el archivo listo, ya sea porque tenés una idea pero no un modelo 3D, o por cualquier otra razón, consultá nuestras otras opciones de servicios de diseño, modelado y escaneo 3D.
+                    </p>
+                    <img class="img_paso" src="https://dummyimage.com/400x300/000/fff" alt="">
+                </li>
+                <li class="paso">
+                    <p class="texto_paso">
+                        Chequeá que el modelo sea un sólido cerrado, ya que el modelo <span>NO debe tener superficies sueltas.</span>
+                    </p>
+                    <img class="img_paso" src="https://dummyimage.com/400x300/000/fff" alt="">
+                </li>
+                <li class="paso">
+                    <p class="texto_paso">
+                        Revisá también que la escala del modelo exportado es la escala con la que se quiere imprimir.
+                    </p>
+                    <img class="img_paso" src="https://dummyimage.com/400x300/000/fff" alt="">
+                </li>
+                <li class="paso">
+                    <p class="texto_paso">
+                        Se recomienda que al exportar el archivo, en caso de hacerlo el cliente, se corrobore que la cantidad de polígonos del archivo resultante sea suficiente como para cubrir la superficie de forma visiblemente continua. En caso contrario, los triángulos que componen la malla generada serán visibles en la impresión.
+                    </p>
+                    <img class="img_paso" src="https://dummyimage.com/400x300/000/fff" alt="">
+                </li>
+                <li class="paso">
+                    <p class="texto_paso">
+                        Revisá también que la escala del modelo exportado es la escala con la que se quiere imprimir.
+                    </p>
+                    <img class="img_paso" src="https://dummyimage.com/400x300/000/fff" alt="">
+                </li>
+                <li class="paso">
+                    <p class="texto_paso">
+                        Elegí en qué material de los que trabajamos vas a imprimir. Podés verlos a continuación:
+                    </p>
+                
+                    <!-- Tabla comparativa de materiales -->
+                    <div class="contenedor_tabla_mat">
+                        <table class="tabla_mat">
+                            <thead>
+                                <tr>
+                                    <th>Material</th>
+                                    <th>Resistencia rayos UV</th>
+                                    <th>Resistencia Tº</th>
+                                    <th>Flexibilidad</th>
+                                    <th>Costo de Impresión</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>PLA</td>
+                                    <td>No</td>
+                                    <td>Hasta 60º</td>
+                                    <td>Media</td>
+                                    <td>$</td>
+                                </tr>
+                                <tr>
+                                    <td>PETG</td>
+                                    <td>Sí</td>
+                                    <td>Hasta 85º</td>
+                                    <td>Baja</td>
+                                    <td>$$</td>
+                                </tr>
+                                <tr>
+                                    <td>TPU</td>
+                                    <td>Sí</td>
+                                    <td>Hasta 60º</td>
+                                    <td>Alta</td>
+                                    <td>$$$$</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+                <li class="paso_cierre">
+                    <a href="" class="texto_paso bloque_texto_centrado">
+                        Enviá tu archivo para comenzar tu proyecto cotizando la impresión.
+                    </a>
+                </li>
+            </ol>
+        </div>
+    </main>
+    
+    <footer>
+        <p class="copyright">© 2022 Piola3D. Todos los derechos reservados.</p>
+        <div class="social">
+            <a class="social_link" href="https://www.instagram.com/piola3d/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a class="social_link" href="" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a class="social_link" href="" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
