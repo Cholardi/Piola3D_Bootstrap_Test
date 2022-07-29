@@ -2,3 +2,26 @@
     background-color: rgb(23, 23, 23) !important;
 }
 
+.custom_h1_carousel_index{
+    font-size: 8vw;
+}
+
+.custom_p_carousel_index{
+    font-size: 3vw;
+}
+
+.carousel-caption-custom{
+    bottom: auto;
+    top: 6rem;
+}
+
+.carousel-caption-custom2{
+    bottom: auto;
+    top: 4rem;
+    left: auto;
+    right: 14%;
+}
+
+.w-30{
+    width: 30%;
+}

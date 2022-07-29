@@ -55,72 +55,105 @@
     </header>
 
     <main>
-        <!-- Primera portada -->
-        <section class="portada_mitades index_section_1">
-            <div class="mitad_texto title_block">
-                <div>
-                    <h1>Piola 3D</h1>
-                    <p class="subtitulo_h1">Dale vida a tus ideas.</p>
+        <!-- Carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgs/carousel_1a.jpg" class="d-block w-100" alt="Cubo engranaje">
+                    <div class="carousel-caption carousel-caption-custom d-md-block text-start text-dark">
+                        <h1 class="custom_h1_carousel_index">Piola 3D</h1>
+                        <p class="custom_p_carousel_index">Dale vida a tus ideas.</p>
+                        <p><a class="btn btn-lg btn-dark" href="pages/servicio_impresion.html">Ver más</a></p>
+                    </div>
                 </div>
-
-                <div>
-                    <a class="button" href="">Ver más</a>
+                <div class="carousel-item">
+                    <img src="imgs/carousel_1b.jpg" class="d-block w-100" alt="Serpiente">
+                    <div class="carousel-caption carousel-caption-custom2 d-md-block text-end text-dark w-30">
+                        <h1 class="custom_h1_carousel_index2">Mirá algunas de nuestras impresiones</h1>
+                        <p>Accedé a la galería para ver impresiones a pedido y productos.</p>
+                        <p><a class="btn btn-lg btn-dark" href="pages/galeria.html">Ir a la galería</a></p>
+                    </div>
                 </div>
             </div>
-            <div class="mitad_imagen_cont">
-                <img class="mitad_imagen img_portada_1" src="imgs/cubo.jpg" alt="Detalle cubo engranaje">
-            </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-        <!-- Imágenes-Botones grandes de secciones-->
-        <section class="index_section_2">
-            <div class="card">
-                <a href="pages/servicio_impresion.html"><img class="card_img" src="imgs/maqueta.jpg"
-                        alt="Servicio - Maqueta"></a>
-                <a class="button" href="pages/servicio_impresion.html">Servicio de Impresión 3D</a>
-            </div>
-            <div class="card">
-                <a href="pages/otros_servicios.html"><img class="card_img" src="imgs/osos.jpg"
-                        alt="Diseño/Modelado/Escaneo 3D - Oso escaneado"></a>
-                <a class="button" href="pages/otros_servicios.html">Otros Servicios</a>
-            </div>
-            <div class="card">
-                <a href=""><img class="card_img" src="imgs/mando.jpg" alt="Productos - Mandalorian"></a>
-                <a class="button" href="">Productos</a>
+        <!-- Cards -->
+        <section class="album py-5 px-5 bg-dark">
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-lg-3 g-5">
+                    <div class="col">
+                        <div class="card text-center">
+                            <img src="imgs/maqueta.jpg" class="card-img-top" alt="Servicio - Maqueta">
+                            <div class="card-body">
+                                <h5 class="card-title">Servicio de Impresión 3D</h5>
+                                <a href="pages/servicio_impresion.html" class="btn btn-dark">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center">
+                            <img src="imgs/osos.jpg" class="card-img-top" alt="Servicio - Maqueta">
+                            <div class="card-body">
+                                <h5 class="card-title">Otros Servicios</h5>
+                                <a href="pages/otros_servicios.html" class="btn btn-dark">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center">
+                            <img src="imgs/mando.jpg" class="card-img-top" alt="Productos - Mandalorian">
+                            <div class="card-body">
+                                <h5 class="card-title">Productos</h5>
+                                <a href="" class="btn btn-dark">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Segunda portada -->
-        <section class="portada_mitades index_section_3">
-            <div class="mitad_texto">
-                <h2>Impresión 3D</h2>
-                <p class="subtitulo_h2">¿Qué Es? ¿Cómo Funciona?</p>
-
-                <div>
-                    <a class="button" href="pages/info.html">Ver más</a>
-                </div>
+        <div class="row featurette m-4 align-items-center">
+            <div class="col-md-5 order-md-2 text-center">
+                <h2 class="featurette-heading fw-normal lh-1">Impresión 3D</h2>
+                <p class="lead">¿Qué Es? ¿Cómo Funciona?</p>
+                <a href="" class="btn btn-dark">Ver más</a>
             </div>
-
-            <div class="mitad_imagen_cont">
-                <img class="mitad_imagen" src="imgs/blancas.jpg" alt="Máquina imprimiendo piezas de ajedrez">
+            <div class="col-md-7 order-md-1 text-center">
+                <img src="imgs/blancas.jpg" class="d-block w-100" alt="Máquina imprimiendo piezas de ajedrez">
             </div>
-        </section>
+        </div>
+
+        <hr class="featurette-divider">
 
         <!-- Tercera portada -->
-        <section class="portada_mitades index_section_4">
-            <div class="mitad_texto">
-                <h2>Materializá tu Proyecto</h2>
-                <p class="subtitulo_h2">Enviá tu modelado 3D siguiendo el <span><a
-                            href="pages/servicio_impresion.html #paso_a_paso">paso a paso</a></span>.</p>
-                <div>
-                    <a class="button" href="pages/servicio_impresion.html #paso_a_paso">Ir al paso a paso</a>
-                </div>
+        <div class="row featurette m-4 align-items-center">
+            <div class="col-md-5 text-center">
+                <h2 class="featurette-heading fw-normal lh-1">Materializá tu Proyecto</h2>
+                <p class="lead">Enviá tu modelado 3D siguiendo el <span><a
+                href="pages/servicio_impresion.html #paso_a_paso">paso a paso</a></span>.</p>
+                <a href="" class="btn btn-dark">Ver más</a>
             </div>
-
-            <div class="mitad_imagen_cont">
-                <img class="mitad_imagen" src="imgs/idea_paso_a_paso.jpg" alt="Signos de pregunta luminosos">
+            <div class="col-md-7 text-center">
+                <img src="imgs/idea_paso_a_paso.jpg" class="d-block w-100" alt="Signos de pregunta luminosos">
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- Footer -->
