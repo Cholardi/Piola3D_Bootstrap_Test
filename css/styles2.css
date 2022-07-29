@@ -53,3 +53,45 @@ span a:hover{
 .h2-bold{
     font-weight: 600!important;
 }
+
+/* -- Servicio impresion 3d -- */
+
+p span{
+    font-weight: 600;
+    text-decoration:underline;
+}
+
+.custom_h1_title_servicio3d{
+    font-size: calc(1.5rem + 2vw);
+}
+
+.custom_h2_subtitle_servicio3d{
+    font-size: calc(1rem + .5vw);
+}
+
+.lead_custom{
+    font-size: 1.1rem;
+}
+
+.paso_cierre{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgb(220, 220, 220);
+}
+
+.paso_cierre:hover{
+    font-weight: 500;
+    color: white;
+}
+
+/* tabla */
+.tabla_mat td, .tabla_mat th, .tabla_mat{
+    text-align: center;
+    padding: 10px;
+    border: solid 2px chocolate;
+    border-collapse: collapse;
+}
+
+.tabla_mat{
+    width: 100%;
+}
