@@ -1,7 +1,17 @@
+/* -- Propiedades generales -- */
 .bg-dark{
     background-color: rgb(23, 23, 23) !important;
 }
 
+.btn_custom_size{
+    font-size: 2vw;
+}
+
+.w-32{
+    width: 32%;
+}
+
+/* -- Index -- */
 .custom_h1_carousel_index{
     font-size: 8vw;
 }
@@ -10,18 +20,36 @@
     font-size: 3vw;
 }
 
-.carousel-caption-custom{
-    bottom: auto;
-    top: 6rem;
+.custom_h1_carousel_index2{
+    font-size: 4vw;
 }
 
-.carousel-caption-custom2{
+.custom_p_carousel_index2{
+    font-size: 2vw;
+}
+
+.carousel-caption-custom-index{
     bottom: auto;
-    top: 4rem;
+    top: 23%;
+    left: 18%;
+}
+
+.carousel-caption-custom-index2{
+    bottom: auto;
+    top: 23%;
     left: auto;
-    right: 14%;
+    right: 17%;
 }
 
-.w-30{
-    width: 30%;
+span a{
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+}
+
+span a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.h2-bold{
+    font-weight: 600!important;
 }
