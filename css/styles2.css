@@ -19,6 +19,10 @@
     font-size: calc(1rem + .5vw);
 }
 
+.custom_h2_title{
+    font-size: calc(1.5rem + 1.5vw);
+}
+
 .lead_custom{
     font-size: 1.1rem;
 }
@@ -98,3 +102,5 @@ span a:hover{
 .tabla_mat{
     width: 100%;
 }
+
+
