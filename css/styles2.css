@@ -11,9 +11,8 @@
     width: 32%;
 }
 
-
 .custom_h1_title{
-    font-size: calc(1.8rem + 2vw);
+    font-size: calc(2rem + 2.5vw);
 }
 
 .custom_h1_subtitle{
@@ -22,6 +21,11 @@
 
 .lead_custom{
     font-size: 1.1rem;
+}
+
+p span{
+    font-weight: 600;
+    text-decoration:underline;
 }
 
 .link_claro{
@@ -78,11 +82,6 @@ span a:hover{
 }
 
 /* -- Servicio impresion 3d -- */
-
-p span{
-    font-weight: 600;
-    text-decoration:underline;
-}
 
 .paso_cierre{
     font-size: 1.6rem;
