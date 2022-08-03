@@ -38,7 +38,7 @@ p span {
 }
 
 .link_claro:hover {
-    font-weight: 500;
+    text-decoration: underline;
     color: white;
 }
 
