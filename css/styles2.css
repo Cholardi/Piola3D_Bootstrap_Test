@@ -42,6 +42,34 @@ p span {
     color: white;
 }
 
+.btn:hover{
+    transform: scale(1.05);
+}
+
+a{
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+
+.animate {
+    animation-name: agrandar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes agrandar {
+
+    0% {
+        opacity: 0;
+        transform: scale(.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 /* -- Index -- */
 .custom_h1_carousel_index {
     font-size: 8vw;
@@ -61,13 +89,13 @@ p span {
 
 .carousel-caption-custom-index {
     bottom: auto;
-    top: 23%;
+    top: 18%;
     left: 18%;
 }
 
 .carousel-caption-custom-index2 {
     bottom: auto;
-    top: 23%;
+    top: 18%;
     left: auto;
     right: 17%;
 }
@@ -83,6 +111,24 @@ span a:hover {
 
 .h2-bold {
     font-weight: 600 !important;
+}
+
+/* -- Footer -- */
+.bi{
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+
+.bi-instagram:hover{
+    color: orange ;
+}
+
+.bi-facebook:hover{
+    color: rgb(0, 140, 255) ;
+}
+
+.bi-whatsapp:hover{
+    color: rgb(75, 228, 29) ;
 }
 
 /* -- Servicio impresion 3d -- */
